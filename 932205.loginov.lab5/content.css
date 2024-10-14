@@ -1,0 +1,74 @@
+body{
+	margin:0px;
+	padding:0px;
+	
+}
+.main{
+	margin:auto;
+	background-color:PaleTurquoise;
+	font-family: Arial, Helvetica, sans-serif;
+	width:900px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	padding:15px;
+}
+.main:hover{
+	background-color:#ff5555;
+	
+}
+.line{
+	width:930px;
+	height:2px;
+	margin:auto;
+	background-color:maroon;
+
+}
+button{
+	margin-left:38%;
+	padding:7px;
+	color:white;
+	background: linear-gradient(to top, green, Lime);
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	border: 0px solid white;
+	outline: none;
+}
+b{
+	font-size:x-large;
+}
+p{
+	margin:10px;
+	
+}
+
+.customoverlay {
+	position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.customwindow {
+    max-width: 500px;
+    background: rgba(225, 255, 115, 1);
+    font-size: 16px;
+		font-family: Arial, Helvetica, sans-serif;
+}
+
+.customtitlebar {
+    height: 50px;
+    display: flex;
+    align-items: center;
+	justify-content: center;
+	font-size: 2em;
+	font-weight:bold;
+	margin: 25px 15px 0px 15px;
+}
+
+
+.customcontent {
+    padding: 20px;
+}
